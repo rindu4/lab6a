@@ -66,3 +66,34 @@ JNNCE Shivamogga.
 \end{tcolorbox}
 \end{titlepage}
 \end{document}
+
+programmm 5
+documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{multirow}
+\begin{document}
+\begin{center}
+\begin{Large}
+\textbf{Table : Students Details of 4th semester CSE}
+\end{Large}
+\end{center}
+\section*{Marks Details}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline  
+\multirow{2}{*}{S.No} & \multirow{2}{*}{USN} & \multirow{2}{*}{Student Name} &
+\multicolumn{4}{c|}{Marks} \\  
+\cline{4-7}  
+& & & MATHS & ADA & Microcontroler & Latex\\  
+\hline  
+1 & 4JNXXCS001 & Name 1 & 45 & 77 & 97 &58 \\  
+\hline  
+2 & 4JNXXCS002 & Name 2 & 74 & 78 & 66 &88 \\  
+\hline  
+3 & 4JNXXCS003 & Name 3 & 88 & 82 & 79 &95\\  
+\hline  
+\end{tabular}  
+\end{document}
